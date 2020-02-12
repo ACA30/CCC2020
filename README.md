@@ -1,5 +1,5 @@
 # CCC2020
-A compilation of my code from the 2020 CCC Junior Contest.
+A compilation of my code from the 2020 CCC Junior Contest. It is very possible this code isn't efficient or very good, this is my first year learning Python and first time attempting the CCC.
 
 ## [Problem J1 - Dog Treats](https://github.com/ACA30/CCC2020/blob/master/j1-dogtreats.py)
 **Problem Description**\
