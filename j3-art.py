@@ -1,6 +1,4 @@
 # (0,0) is bottom left of canvas
-# this is probably the worst and most complicated solution ever im sorry its so sus
-# i forgot how to splice strings that would have made this 100x easier...
 
 # min function
 def min(list):
@@ -23,59 +21,11 @@ coordsy = []
 
 for x in range(n):
     data = input()
-    limit = len(data)
     
-    if limit == 3:
-        x = data[0]
-        y = data[2]
-    elif limit == 4:
-        x = data[0]
-        if data[1] != ",":
-            x += data[1]
-            y = data[3]
-        else:
-            y = data[2]
-            y += data[3]
-    elif limit == 5:
-        x = data[0]
-        if data[1] != ",":
-            x += data[1]
-            if data[2] != ",":
-                x += data[2]
-            else:
-                y = data[3]
-                y += data[4]
-        else:
-            y = data[2]
-            y += data[3]
-            y += data[4]
-    elif limit == 6:
-        x = data[0]
-        x += data[1]
-        if data[2] != ",":
-            x += data[2]
-            y = data[4]
-            y += data[5]
-        else:
-            y = data[3]
-            y += data[4]
-            y += data[5]
-            
-    elif limit == 7:
-        x = data[0]
-        x += data[1]
-        x += data[2]
-        y = data[4]
-        y += data[5]
-        y += data[6]
+    temp = data.split(",")
     
-    # x = data[0]
-    # x += data[1]
-    # y = data[3]
-    # y += data[4]
-    
-    coordsx.append(int(x))
-    coordsy.append(int(y))
+    coordsx.append(int(temp[0]))
+    coordsy.append(int(temp[1]))
     
 x1 = (min(coordsx) - 1)
 y1 = (min(coordsy) - 1)
