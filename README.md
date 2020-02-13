@@ -54,7 +54,7 @@ For 6 of the 15 available marks, *S* will be exactly 3 characters in length.
 **Output Specification**\
 Output `yes` if the text, *T*, contains a cyclic shift of the string, *S*. Otherwise, output `no`.
 
-## [Problem J5/S2 - Escape Room](https://github.com/ACA30/CCC2020/blob/master/j5-escaoe-room.py)
+## [Problem J5/S2 - Escape Room](https://github.com/ACA30/CCC2020/blob/master/j5-escape-room.py)
 *I didn't manage to solve this question, so the code in my file is from [Ewpratten's repository](https://github.com/Ewpratten/ccc-2020).*
 
 **Problem Description**\
